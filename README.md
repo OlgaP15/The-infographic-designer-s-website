@@ -1,6 +1,7 @@
 # Сайт-портфолио дизайнера инфографики
 
-https://github.com/user-attachments/assets/29346a7c-9fa8-402a-9eab-99afc3073241
+![2025-04-17_21-10-57](https://github.com/user-attachments/assets/101534ef-2cbe-4523-a253-43d9adaaf3fc)
+
 
 Одностраничный лендинг для презентации работ дизайнера инфографики.
 
