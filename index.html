@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дизайнер инфографики</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Профессиональный дизайнер инфографики. Визуализация сложных данных просто и красиво.">
+</head>
+<body>
+    <header>
+        <h1>Дизайнер инфографики</h1>
+    </header>
+
+    <main>
+        <section id="about" class="block">
+            <h2>Обо мне</h2>
+            <p>Привет! Я занимаюсь созданием инфографики. Помогаю визуализировать сложные данные просто и красиво.</p>
+        </section>
+
+        <section id="works" class="block">
+            <h2>Мои работы</h2>
+            <div class="gallery">
+                <div class="work-item">
+                    <img src="img/work1.png" alt="Инфографика для экологической компании" loading="lazy">
+                    <p>Проект для экологической компании</p>
+                </div>
+                <div class="work-item">
+                    <img src="img/work2.png" alt="Медицинская статистика" loading="lazy">
+                    <p>Статистика для медицинского исследования</p>
+                </div>
+                <div class="work-item">
+                    <img src="img/work3.png" alt="Бизнес-аналитика" loading="lazy">
+                    <p>Бизнес-аналитика для стартапа</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="block">
+            <h2>Контакты</h2>
+            <p>Свяжитесь со мной для заказа:</p>
+            <div class="social-buttons">
+                <a href="https://t.me/ваш_телеграм" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                    <img src="img/telegram.svg" alt="" class="social-icon">
+                </a>
+                <a href="https://vk.com/ваш_вк" target="_blank" rel="noopener noreferrer" aria-label="ВКонтакте">
+                    <img src="img/vk.svg" alt="" class="social-icon">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#about">Обо мне</a>
+            <a href="#works">Портфолио</a>
+            <a href="#contacts">Контакты</a>
+        </div>
+        <div class="footer-social">
+            <a href="https://t.me/ваш_телеграм" target="_blank" rel="noopener">
+                <img src="img/telegram.svg" alt="Telegram" class="footer-social-icon">
+            </a>
+            <a href="https://vk.com/ваш_вк" target="_blank" rel="noopener">
+                <img src="img/vk.svg" alt="ВКонтакте" class="footer-social-icon">
+            </a>
+        </div>
+        <p>© 2025 Дизайнер инфографики. Все права защищены.</p>
+        <p>Сайт создан с ❤️</p>
+    </footer>
+
+    <script>
+        // Автоматическое обновление года
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
